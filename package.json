@@ -1,0 +1,13 @@
+{
+  "name": "firibstop-uz-offline-shield",
+  "version": "2.3.6",
+  "private": true,
+  "description": "FiribStop UZ Russian-language cybersecurity news feed and CARTO-backed regional reference map",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/security-database.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
